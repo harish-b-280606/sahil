@@ -8,36 +8,35 @@
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
+  <!-- Main CSS -->
   <link rel="stylesheet" href="style.css">
-  <!-- Footer-->
-   <link rel="stylesheet" href="/Shared/footer.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+  <!-- Footer CSS -->
+  <link rel="stylesheet" href="Shared/footer.css">
 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
 
 <!-- ================= HEADER ================= -->
 <header class="header">
- 
   <div class="header-left">
-    <img src="../resources/clg-logo.jpeg">
+    <img src="resources/clg-logo.jpeg" alt="College Logo">
   </div>
- 
 
   <nav class="header-nav">
-    <a class="active">HOME</a>
-    <a href="../About/about.html">ABOUT</a>
-    <a href="../Event/event.html">Events</a>
-    <a href="../Sponsors/sponsors.html">SPONSORS</a>
-    <a href="../Gallery/gallery.html">GALLERY</a>
+    <a class="active" href="index.html">HOME</a>
+    <a href="About/about.html">ABOUT</a>
+    <a href="Event/event.html">EVENTS</a>
+    <a href="Sponsors/sponsors.html">SPONSORS</a>
+    <a href="Gallery/gallery.html">GALLERY</a>
   </nav>
 
   <div class="header-right">
     <button class="register-btn">REGISTER</button>
-<img class="whatsapp-icon" src="../resources/whatapp-logo.webp" alt="WhatsApp">
-
+    <img class="whatsapp-icon" src="resources/whatapp-logo.webp" alt="WhatsApp">
   </div>
 </header>
 
@@ -51,11 +50,10 @@
   <p class="event-date-text">13th March 2026</p>
 
   <button class="hero-btn">Register now</button>
-
+</section>
 
 <!-- ================= ABOUT US ================= -->
 <section class="about-section">
-
   <h2 class="about-title">ABOUT US</h2>
 
   <p class="about-tagline">
@@ -63,9 +61,9 @@
   </p>
 
   <p class="about-desc">
-    The Department of Information Technology proudly presents INFINIT’26, 
-    a National Level Technical Symposium that brings together bright minds 
-    to explore emerging technologies, exchange innovative ideas, and build 
+    The Department of Information Technology proudly presents INFINIT’26,
+    a National Level Technical Symposium that brings together bright minds
+    to explore emerging technologies, exchange innovative ideas, and build
     impactful solutions for the future.
   </p>
 
@@ -76,59 +74,45 @@
   <p class="about-highlight">
     All participants will be receiving an E-Voucher!
   </p>
+</section>
 
-  <!-- ================= FEATURED EVENTS ================= -->
+<!-- ================= FEATURED EVENTS ================= -->
 <section class="featured-events">
-
   <h2 class="section-title">FEATURED EVENTS</h2>
 
   <div class="featured-cards two-only">
-
-    <!-- TECHNICAL EVENTS -->
-    <a href="../Event/index.html" class="event-card category-card technical">
+    <a href="Event/index.html" class="event-card category-card technical">
       <div class="card-overlay"></div>
       <h3>TECHNICAL EVENTS</h3>
-      <p>
-        Coding • AI • Web • Data • Cyber Security
-      </p>
+      <p>Coding • AI • Web • Data • Cyber Security</p>
       <span class="explore-btn">Explore →</span>
     </a>
 
-    <!-- NON-TECHNICAL EVENTS -->
-    <a href="../Event/index.html" class="event-card category-card non-technical">
+    <a href="Event/index.html" class="event-card category-card non-technical">
       <div class="card-overlay"></div>
       <h3>NON-TECHNICAL EVENTS</h3>
-      <p>
-        Fun • Creativity • Brain Games • Team Play
-      </p>
+      <p>Fun • Creativity • Brain Games • Team Play</p>
       <span class="explore-btn">Explore →</span>
     </a>
-
   </div>
-
 </section>
-
 
 <!-- ================= EVENT SCHEDULE ================= -->
 <section class="flowchart" id="timeline-section">
-
   <div class="heading">
     <h2>EVENT SCHEDULE</h2>
     <p>From ideas to impact, one step at a time!</p>
   </div>
 
-  <!-- DAY SWITCH BUTTONS --><center>
-  <div class="timeline-controls">
-    <button class="timeline-btn active" onclick="switchDay('day1', this)">
-      Day 1 (13 March)
-    </button>
-
-  </div>
+  <center>
+    <div class="timeline-controls">
+      <button class="timeline-btn active">
+        Day 1 (13 March)
+      </button>
+    </div>
   </center>
 
-  <!-- ================= DAY 1 ================= -->
-  <div class="timeline-container active" id="day1">
-
+  <div class="timeline-container active">
     <div class="timeline-item">
       <span class="time">08:00 AM – 09:00 AM</span>
       <div class="content">
@@ -146,60 +130,10 @@
     </div>
 
     <div class="timeline-item">
-      <span class="time">10:20 AM – 10:50 AM</span>
-      <div class="events-wrapper">
-        <div class="content">
-          <h3>SQL Showdown</h3>
-          <span class="tag">Technical</span>
-        </div>
-        <div class="content">
-          <h3>Web Relay Rush</h3>
-          <span class="tag">Technical</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <span class="time">11:00 AM – 01:00 PM</span>
-      <div class="events-wrapper">
-        <div class="content">
-          <h3>Cyber Quest</h3>
-          <span class="tag">Technical</span>
-        </div>
-        <div class="content">
-          <h3>Tech Quiz</h3>
-          <span class="tag">Technical</span>
-        </div>
-        <div class="content">
-          <h3>Drum Sharede</h3>
-          <span class="tag">Non-Technical</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="timeline-item">
       <span class="time">01:10 PM – 01:50 PM</span>
       <div class="content">
         <h3>Lunch Break</h3>
         <span class="tag break">Break</span>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <span class="time">02:00 PM – 03:30 PM</span>
-      <div class="events-wrapper">
-        <div class="content">
-          <h3>SQL Showdown (Finals)</h3>
-          <span class="tag">Technical</span>
-        </div>
-        <div class="content">
-          <h3>Voices Beyond The Code</h3>
-          <span class="tag">General</span>
-        </div>
-        <div class="content">
-          <h3>Web Relay Rush</h3>
-          <span class="tag">Technical</span>
-        </div>
       </div>
     </div>
 
@@ -210,146 +144,40 @@
         <span class="tag">Ceremony</span>
       </div>
     </div>
-
   </div>
-
-  <!-- ================= DAY 2 ================= -->
-  <div class="timeline-container" id="day2">
-
-    <div class="timeline-item">
-      <span class="time">08:00 AM – 09:00 AM</span>
-      <div class="content">
-        <h3>Registration Verification</h3>
-        <span class="tag">General</span>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <span class="time">09:00 AM – 09:30 AM</span>
-      <div class="content">
-        <h3>Day 1 Recap</h3>
-        <span class="tag">General</span>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <span class="time">09:30 AM – 10:20 AM</span>
-      <div class="content">
-        <h3>Crossword Puzzle</h3>
-        <span class="tag">General</span>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <span class="time">10:20 AM – 11:00 AM</span>
-      <div class="events-wrapper">
-        <div class="content">
-          <h3>Reverse Coding</h3>
-          <span class="tag">Technical</span>
-        </div>
-        <div class="content">
-          <h3>Data Analysis</h3>
-          <span class="tag">Technical</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <span class="time">11:10 AM – 01:00 PM</span>
-      <div class="events-wrapper">
-        <div class="content">
-          <h3>Connection</h3>
-          <span class="tag">Non-Technical</span>
-        </div>
-        <div class="content">
-          <h3>Rapid Fire</h3>
-          <span class="tag">Non-Technical</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <span class="time">01:10 PM – 01:50 PM</span>
-      <div class="content">
-        <h3>Lunch Break</h3>
-        <span class="tag break">Break</span>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <span class="time">02:00 PM – 03:30 PM</span>
-      <div class="events-wrapper">
-        <div class="content"><h3>Reverse Coding</h3><span class="tag">Technical</span></div>
-        <div class="content"><h3>Ideathon ’26</h3><span class="tag">Non-Technical</span></div>
-        <div class="content"><h3>Game Development</h3><span class="tag">Technical</span></div>
-        <div class="content"><h3>Mobile App Development</h3><span class="tag">Technical</span></div>
-        <div class="content"><h3>Data Analysis</h3><span class="tag">Technical</span></div>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <span class="time">03:30 PM Onwards</span>
-      <div class="content">
-        <h3>Valedictory & Awards</h3>
-        <span class="tag">Ceremony</span>
-      </div>
-    </div>
-
-  </div>
-
 </section>
 
-
-
-<!-- Footer auto-load -->
-<div id="footer-container"></div>
-
-<script src="../Shared/footer.js"></script>
-
-
-
-
-
-
-
-<!-- JS -->
-<script src="index.js"></script>
-
-</body>
-
-
+<!-- ================= FOOTER ================= -->
 <footer class="site-footer">
   <div class="footer-content">
 
-    <!-- Brand -->
     <div class="footer-brand">
       <h2 class="brand-name">INFINIT<span class="highlight">26</span></h2>
       <p class="tagline">Innovate • Build • Inspire</p>
 
       <div class="social-links">
-        <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+        <a href="https://www.instagram.com/" target="_blank">
           <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="https://wa.me/91XXXXXXXXXX" target="_blank" aria-label="WhatsApp">
+        <a href="https://wa.me/919655411544" target="_blank">
           <i class="fa-brands fa-whatsapp"></i>
         </a>
       </div>
     </div>
 
-    <!-- Quick Links -->
     <div class="footer-links">
       <h3>Quick Links</h3>
-      <a href="../home/index.html">Home</a>
-      <a href="../Event/index.html">Events</a>
-      <a href="../Gallery/gallery.html">Gallery</a>
-      <a href="../Contact/contact.html">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="Event/index.html">Events</a>
+      <a href="Gallery/gallery.html">Gallery</a>
+      <a href="Contact/contact.html">Contact</a>
     </div>
 
-    <!-- Contact -->
     <div class="footer-contact">
       <h3>Contact</h3>
       <p>Hindustan Institute of Technology & Science</p>
-      <p>Chennai, Tamil Nadu</p>+91 9655411544<
+      <p>Chennai, Tamil Nadu</p>
+      <p>+91 9655411544</p>
       <p>
         Email:
         <a href="mailto:infinit26@hindustanuniv.ac.in">
@@ -365,19 +193,9 @@
   </div>
 </footer>
 
+<!-- JS -->
+<script src="Shared/footer.js"></script>
+<script src="index.js"></script>
 
-
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
