@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  
+  <title>Events | INFINIT'26</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../Event/event.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="event-header">
+  <h1> EVENTS</h1>
+  <p>National Level Technical Symposium • 13th March 2026</p>
+</header>
+
+<!-- ================= EVENT GRID ================= -->
+<section class="events-section">
+
+  <h2 class="section-title">Technical Events </h2>
+
+  <div class="events-grid">
+
+    <!-- Event Card 1 -->
+    <div class="event-card">
+      <img src="../resources/PROMPT WAR.jpeg" alt="PROMPT WAR">
+      <div class="event-content">
+        <h3>PROMPT WAR</h3>
+        <p>Turn words into weapons in this fast-paced challenge where smart prompting and sharp reasoning lead to victory..</p>
+        <span class="event-tag technical">Technical</span>
+        <button class="rule-btn">View Rules</button>
+      </div>
+    </div>
+
+    <div class="event-card">
+      <img src="../resources/mini  hackathon.jpeg" alt="mini hackathon">
+      <div class="event-content">
+        <h3>Mini Hackathon</h3>
+        <p>Build real-world solutions under time pressureRace against time in a relay-style full-stack challenge that tests speed, teamwork, and innovation..</p>
+        <span class="event-tag technical">Technical</span>
+        <button class="rule-btn">View Rules</button>
+      </div>
+    </div>
+
+    <div class="event-card">
+      <img src="../resources/paper presentation.jpeg" alt="paper presentation">
+      <div class="event-content">
+        <h3>PAPER PRESENTATION</h3>
+        <p>Present your research, innovations, and technical insights before a panel of experts..</p>
+        <span class="event-tag nontech">Technical</span>
+        <button class="rule-btn">View Rules</button>
+      </div>
+    </div>
+
+    <div class="event-card">
+      <img src="../resources/ideathon.jpeg" alt="IDEATHON">
+      <div class="event-content">
+        <h3>IDEATHON</h3>
+        <p>Test your knowledge in CS, AI, and emerging technologies.</p>
+        <span class="event-tag nontech">Technical</span>
+        <button class="rule-btn">View Rules</button>
+      </div>
+    </div>
+
+    <div class="event-card">
+      <img src="../resources/gen ai attack.jpeg" alt="GEN AI ATTACK ">
+      <div class="event-content">
+        <h3>GEN AI ATTACK</h3>
+        <p>Test your knowledge in CS, AI, and emerging technologies.</p>
+        <span class="event-tag nontech">Technical</span>
+        <button class="rule-btn">View Rules</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================= EVENT GRID non technical ================= -->
+<section class="events-section">
+
+  <h2 class="section-title"> Non-Technical Events </h2>
+
+  <div class="events-grid">
+
+    <!-- Event Card 1 -->
+    <div class="event-card">
+      <img src="../resources/treasure hunt.jpeg" alt="treasure hunt">
+      <div class="event-content">
+        <h3>TREASURE HUNT</h3>
+        <p>Crack clues, solve challenges, and race against rival teams to claim the ultimate treasure.</p>
+        <span class="event-tag technical"> NON-Technical</span>
+        <button class="rule-btn">View Rules</button>
+      </div>
+    </div>
+
+      <div class="event-card">
+      <img src="../resources/ipl.jpeg" alt="IPL Auction">
+      <div class="event-content">
+        <h3>IPL AUCTION </h3>
+        <p>Strategize your bids, assemble the perfect squad, and feel the excitement of a real IPL-style auction.</p>
+        <span class="event-tag technical"> NON-Technical</span>
+        <button class="rule-btn">View Rules</button>
+      </div>
+    </div>
+
+     <div class="event-card">
+      <img src="../resources/photography.jpeg" alt="PHOTOGRAPHY CONTEST">
+      <div class="event-content">
+        <h3>PHOTOGRAPHY CONTEST </h3>
+        <p>Capture powerful moments and express stories through your lens with creativity and vision.</p>
+        <span class="event-tag technical"> NON-Technical</span>
+        <button class="rule-btn">View Rules</button>
+      </div>
+    </div>
+
+      <div class="event-card">
+      <img src="../resources/talent show.jpeg" alt="Fancy Costumes & Talent Show">
+      <div class="event-content">
+        <h3> FANCY COSTUMES & TALENT SHOW </h3>
+        <p>Bring characters to life and showcase your talents through costumes, music, dance, and performances that captivate the audience.</p>
+        <span class="event-tag technical"> NON-Technical</span>
+        <button class="rule-btn">View Rules</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- ================= EVENT SCHEDULE ================= -->
+<section class="timeline-section">
+
+  <h2 class="section-title">Event Schedule</h2>
+
+  <div class="timeline-controls">
+    <button class="timeline-btn active" onclick="switchDay('day1')">Day 1</button>
+  
+  </div>
+
+  <div class="timeline-container active" id="day1">
+    <div class="timeline-item left">
+      <span class="time">09:00 AM</span>
+      <div class="box">Registration & Inauguration</div>
+    </div>
+    <div class="timeline-item right">
+      <span class="time">10:30 AM</span>
+      <div class="box">PROMPT WAR</div>
+    </div>
+    <div class="timeline-item right">
+      <span class="time">11.30 AM</span>
+      <div class="box">MINI HACKATHON</div>
+    </div> 
+    <div class="timeline-item right">
+      <span class="time">12.30 AM</span>
+      <div class="box">PAPER PRESENTATION</div>
+    </div>
+    <div class="timeline-item right">
+      <span class="time">1:30 AM</span>
+      <div class="box">IDEATHON</div>
+    </div>           
+    <div class="timeline-item left">
+      <span class="time">02:00 PM</span>
+      <div class="box">Lunch Break</div>
+    </div>
+  </div>
+
+    <div class="timeline-item right">
+      <span class="time">4.00 PM</span>
+      <div class="box">TREASURE HUNT</div>
+    </div>  
+
+    <div class="timeline-item right">
+      <span class="time">5.00 PM</span>
+      <div class="box">IPL ACTION</div>
+    </div>   
+    
+    <div class="timeline-item right">
+      <span class="time">6.00 PM</span>
+      <div class="box">PHOTOGRAPHY</div>
+    </div>    
+
+  <div class="timeline-container" id="day2">
+    <div class="timeline-item right">
+      <span class="time">09:30 AM</span>
+      <div class="box">Non-Technical Events</div>
+    </div>
+    <div class="timeline-item left">
+      <span class="time">02:30 PM</span>
+      <div class="box">Valedictory</div>
+    </div>
+  </div>
+
+</section>
+
+<script src="../Event/event.js"></script>
+</body>
+</html>
