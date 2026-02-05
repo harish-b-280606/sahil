@@ -128,47 +128,6 @@ body{
   cursor:pointer;
 }
 
-/* ================= COUNTDOWN ================= */
-.countdown{
-  margin-top:40px;
-  display:flex;
-  gap:18px;
-}
-
-.time-box{
-  width:110px;
-  padding:18px 0;
-  background:rgba(255,255,255,0.12);
-  border-radius:14px;
-  backdrop-filter:blur(8px);
-}
-
-.time-box span{
-  font-size:28px;
-  font-weight:700;
-}
-
-.time-box small{
-  display:block;
-  margin-top:6px;
-  color:#ddd;
-}
-
-
-.symposium-text{
-  margin-top:16px;
-  font-size:20px;
-  font-weight:500;
-  color:#e0e0e0;
-}
-
-.event-date-text{
-  margin-top:6px;
-  margin-bottom:30px;   /* ✅ THIS ADDS SPACE */
-  font-size:16px;
-  font-weight:600;
-  color:#9fd7ff;
-}
 
 
 /* ================= ABOUT US ================= */
